@@ -1,0 +1,47 @@
+package: .
+ignore:
+- golang.org/x/net
+- golang.org/x/crypto
+excludeDirs:
+- src
+import:
+- package: github.com/rifflock/lfshook
+- package: github.com/sirupsen/logrus
+- package: gopkg.in/mgo.v2
+  subpackages:
+  - bson
+- package: github.com/go-ini/ini
+  version: v1.38.1
+- package: github.com/urfave/cli
+  version: v1.20.0
+- package: github.com/gogo/protobuf
+  version: ~1.1.0
+  subpackages:
+  - proto
+  - jsonpb
+  - protoc-gen-gogo
+  - gogoproto
+- package: gopkg.in/Shopify/sarama.v1
+  version: ~1.17.0
+- package: github.com/pebbe/zmq4
+  version: ~1.0.0
+- package: github.com/segmentio/kafka-go
+- package: gopkg.in/olivere/elastic.v2
+  version: ~6.1.27
+- package: github.com/mailru/easyjson
+  subpackages:
+  - jlexer
+  - jwriter
+- package: github.com/olivere/elastic
+  version: ~6.1.27
+  subpackages:
+  - config
+  - uritemplates
+- package: gopkg.in/olivere/elastic.v6
+  version: ~6.1.27
+- package: github.com/colinmarc/hdfs
+  version: ~2.0.0
+- package: gopkg.in/jcmturner/gokrb5.v5
+  version: ~5.3.0
+  subpackages:
+  - client

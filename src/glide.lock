@@ -1,0 +1,76 @@
+hash: 70e29688e5b8cdd55ad2bb44724c4a8506691821277f8fcd7aed62bede896b1c
+updated: 2018-08-13T15:20:54.308246767+08:00
+imports:
+- name: github.com/colinmarc/hdfs
+  version: fd1e410ff7bf76b870f625dc0aa3eb4e44f5bc50
+- name: github.com/davecgh/go-spew
+  version: 8991bc29aa16c548c550c7ff78260e27b9ab7c73
+  subpackages:
+  - spew
+- name: github.com/eapache/go-resiliency
+  version: ea41b0fad31007accc7f806884dcdf3da98b79ce
+  subpackages:
+  - breaker
+- name: github.com/eapache/go-xerial-snappy
+  version: 040cc1a32f578808623071247fdbd5cc43f37f5f
+- name: github.com/eapache/queue
+  version: 093482f3f8ce946c05bcba64badd2c82369e084d
+- name: github.com/go-ini/ini
+  version: 358ee7663966325963d4e8b2e1fbd570c5195153
+- name: github.com/gogo/protobuf
+  version: 636bf0302bc95575d69441b25a2603156ffdddf1
+  subpackages:
+  - gogoproto
+  - jsonpb
+  - proto
+  - protoc-gen-gogo
+- name: github.com/golang/snappy
+  version: 2e65f85255dbc3072edf28d6b5b8efc472979f5a
+- name: github.com/mailru/easyjson
+  version: 03f2033d19d5860aef995fe360ac7d395cd8ce65
+  subpackages:
+  - buffer
+  - jlexer
+  - jwriter
+- name: github.com/olivere/elastic
+  version: e3492b022a109ac0e52a6d42d5bfb835050fa7f4
+  subpackages:
+  - config
+  - uritemplates
+- name: github.com/pebbe/zmq4
+  version: 5b443b6471cea4b4f9f85025530c04c93233f76a
+- name: github.com/pierrec/lz4
+  version: 6b9367c9ff401dbc54fabce3fb8d972e799b702d
+  subpackages:
+  - internal/xxh32
+- name: github.com/pkg/errors
+  version: 816c9085562cd7ee03e7f8188a1cfd942858cded
+- name: github.com/rcrowley/go-metrics
+  version: e2704e165165ec55d062f5919b4b29494e9fa790
+- name: github.com/rifflock/lfshook
+  version: bf539943797a1f34c1f502d07de419b5238ae6c6
+- name: github.com/segmentio/kafka-go
+  version: 48c37f796910d8154479aaa04ade5843ae4f55d0
+- name: github.com/sirupsen/logrus
+  version: c155da19408a8799da419ed3eeb0cb5db0ad5dbc
+- name: github.com/urfave/cli
+  version: cfb38830724cc34fedffe9a2a29fb54fa9169cd1
+- name: golang.org/x/sys
+  version: bd9dbc187b6e1dacfdd2722a87e83093c2d7bd6e
+  subpackages:
+  - unix
+- name: gopkg.in/jcmturner/gokrb5.v5
+  version: 32ba44ca5b42f17a4a9f33ff4305e70665a1bc0f
+  subpackages:
+  - client
+- name: gopkg.in/mgo.v2
+  version: 9856a29383ce1c59f308dd1cf0363a79b5bef6b5
+  subpackages:
+  - bson
+- name: gopkg.in/olivere/elastic.v2
+  version: e3492b022a109ac0e52a6d42d5bfb835050fa7f4
+- name: gopkg.in/olivere/elastic.v6
+  version: e3492b022a109ac0e52a6d42d5bfb835050fa7f4
+- name: gopkg.in/Shopify/sarama.v1
+  version: 35324cf48e33d8260e1c7c18854465a904ade249
+testImports: []
